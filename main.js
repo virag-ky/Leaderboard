@@ -9,6 +9,28 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./modules/refresh.js":
+/*!****************************!*\
+  !*** ./modules/refresh.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = () => {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\n\n\n//# sourceURL=webpack://leaderboard/./modules/refresh.js?");
+
+/***/ }),
+
+/***/ "./modules/submit.js":
+/*!***************************!*\
+  !*** ./modules/submit.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst sendData = () => {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendData);\n\n\n//# sourceURL=webpack://leaderboard/./modules/submit.js?");
+
+/***/ }),
+
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
@@ -26,7 +48,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* eslint-disable */\n\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_submit_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/submit.js */ \"./modules/submit.js\");\n/* harmony import */ var _modules_refresh_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/refresh.js */ \"./modules/refresh.js\");\n/* eslint-disable */\n\n/* eslint-enable */\n\n\n\n\nconst submitBtn = document.getElementById(\"submit\");\nconst refreshBtn = document.getElementById(\"refresh\");\n\nwindow.addEventListener(\"DOMContentLoaded\", () => {\n  submitBtn.addEventListener(\"submit\", _modules_submit_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n  refreshBtn.addEventListener(\"click\", _modules_refresh_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n});\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ })
 
