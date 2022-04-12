@@ -1,1 +1,61 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Leaderboard</title><script defer="defer" src="main.js"></script></head><body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  <script defer src="main.js"></script></head>
+  <body>
+    <h1 class="display-1 m-5 p-5">Leaderboard</h1>
+    <main class="container-fluid d-flex">
+      <section class="container w-50 m-5 p-5">
+        <div class="d-flex justify-content-between mb-5">
+          <h2 class="display-6">Recent scores</h2>
+          <button type="button" class="pt-1 pb-1 ps-3 pe-3">Refresh</button>
+        </div>
+        <ul class="list-group border border-3 border-dark">
+          <li class="list-group-item p-3">Name: 100</li>
+          <li class="list-group-item p-3">Name: 50</li>
+          <li class="list-group-item p-3">Name: 25</li>
+        </ul>
+      </section>
+      <section class="container w-50 m-5 p-5">
+        <h2 class="display-6 mb-5">Add your score</h2>
+        <form action="" class="d-flex flex-column">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your name"
+            class="p-2 mb-4 border-2"
+          />
+          <input
+            type="text"
+            name="score"
+            id="score"
+            placeholder="Your score"
+            class="p-2 mb-4 border-2"
+          />
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            class="p-2 w-25 border-2"
+          />
+        </form>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
