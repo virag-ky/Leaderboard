@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> The leaderboard website displays scores submitted by different players.
+> The leaderboard website displays scores submitted by different players. After clicking submit, the player should click refresh in order to update the leaderboard.
 
 ## Built With
 
@@ -10,6 +10,14 @@
 - JavaScript
 - Modules
 - Webpack
+
+## Screenshot
+### Mobile
+![Screenshot from 2022-04-13 14-14-23](https://user-images.githubusercontent.com/79658534/163171402-c5bd9d3e-ca58-4667-91d6-8a213975bc2b.png)
+
+### Desktop
+![screencapture-localhost-8081-2022-04-13-14_13_29](https://user-images.githubusercontent.com/79658534/163171366-1e7366f2-1a3e-472a-acf5-5f1f4cd3c3fe.png)
+
 
 ## Getting Started
 
