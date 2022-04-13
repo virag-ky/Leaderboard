@@ -2,6 +2,8 @@
 import _ from "lodash";
 /* eslint-enable */
 
+import './style.css';
+
 import { setScores } from '../modules/submit.js';
 import displayScores from '../modules/refresh.js';
 
@@ -29,6 +31,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (!score.value.match(regex2)) {
       errorMessage.style.display = 'block';
+      errorMessage.style.color = 'yellow';
+      errorMessage.style.fontSize = '12px';
+      errorMessage.style.lineHeight = '24px';
       return;
     }
     errorMessage.style.display = 'none';
