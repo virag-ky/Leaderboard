@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons.flaticon.com/png/512/2995/premium/2995489.png?token=exp=1649849046~hmac=af6846a8123a870b04d600aec1b9ac4a"
+    />
+  <script defer src="/Leaderboard/main.js"></script></head>
+  <body>
+    <h1>Leaderboard</h1>
+    <main>
+      <section>
+        <div>
+          <h2>Recent scores</h2>
+          <button type="button" id="refresh">Refresh</button>
+        </div>
+        <ul id="list-container"></ul>
+      </section>
+      <section>
+        <h2>Add your score</h2>
+        <form action="#">
+          <input type="text" name="name" id="name" placeholder="Your name" />
+          <input type="text" name="score" id="score" placeholder="Your score" />
+          <p id="error">Please, enter a valid input: number.</p>
+          <input type="button" name="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
