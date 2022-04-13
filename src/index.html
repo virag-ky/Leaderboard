@@ -22,11 +22,10 @@
             Refresh
           </button>
         </div>
-        <ul class="list-group border border-3 border-dark">
-          <li class="list-group-item p-3">Name: 100</li>
-          <li class="list-group-item p-3">Name: 50</li>
-          <li class="list-group-item p-3">Name: 25</li>
-        </ul>
+        <ul
+          class="list-group border border-3 border-dark"
+          id="list-container"
+        ></ul>
       </section>
       <section class="container w-50 m-5 p-5">
         <h2 class="display-6 mb-5">Add your score</h2>
@@ -45,10 +44,14 @@
             placeholder="Your score"
             class="p-2 mb-4 border-2"
           />
+          <p class="text-danger" id="error">
+            Please, enter a valid input: number.
+          </p>
           <input
-            type="submit"
+            type="button"
             name="submit"
             id="submit"
+            value="Submit"
             class="p-2 w-25 border-2 position-absolute top-100 end-0"
           />
         </form>
