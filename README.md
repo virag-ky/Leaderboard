@@ -7,6 +7,7 @@
 ## Built With
 
 - HTML
+- CSS
 - JavaScript
 - Modules
 - Webpack
@@ -41,9 +42,8 @@ git clone git@github.com:virag-ky/Leaderboard.git
 npm start
 ```
 
-### Deployment
-
-> Once it's done, it will be deployed with Github pages.
+## Live Site URL
+> https://virag-ky.github.io/Leaderboard/
 
 ## Authors
 
