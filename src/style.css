@@ -9,7 +9,6 @@
 
 body {
   background: black;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +47,8 @@ li {
   border-bottom: 1px dashed #6edcd9;
   color: #e15fed;
   padding: 10px;
+  word-break: break-all;
+  line-height: 1.5;
 }
 
 section,
