@@ -1,5 +1,5 @@
 const URL =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/virag9130/scores";
+  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/virag1301/scores";
 
 const setData = async () => {
   const response = await fetch(URL);
