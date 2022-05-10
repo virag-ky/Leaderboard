@@ -1,4 +1,5 @@
-const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/virag103091/scores';
+const URL =
+  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/virag1301/scores";
 
 const setData = async () => {
   const response = await fetch(URL);
@@ -8,9 +9,9 @@ const setData = async () => {
 
 const setScores = async (player, scores) => {
   const answer = await fetch(URL, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({ user: player, score: scores }),
   });
